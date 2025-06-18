@@ -34,6 +34,9 @@ This machine learning project predicts whether a student is at risk of **droppin
 | `total_clicks`       | Total interactions on the VLE         |
 | `avg_score`          | Average assessment score              |
 
+
+![image](https://github.com/user-attachments/assets/d0c0f2c1-0256-4bfc-b3ad-64d691000902)
+
 ---
 
 ## 🧠 Models Compared
@@ -51,17 +54,18 @@ This machine learning project predicts whether a student is at risk of **droppin
 - **69%** students continued (class 0)
 - **31%** dropped out (class 1)
 - Used `scale_pos_weight` and `class_weight='balanced'` to address imbalance
+- ![image](https://github.com/user-attachments/assets/6acfc274-055a-456a-b597-a5add42c4fff)
+
 
 ---
 
 ## 🎮 Gradio App
 
-![Gradio Screenshot](assets/gradio_demo.png)
+![image](https://github.com/user-attachments/assets/46ff32c5-414b-452d-8a58-b5efb747042e)
+
 
 > The web app takes user inputs (age, education, performance, etc.) and predicts if a student is likely to drop out.
 
-### 🔗 Example Output:
-> `🔴 Likely to Drop Out (Dropout Probability: 0.73)`
 
 ---
 
